@@ -10,7 +10,7 @@ const Hooks = () => {
     useEffect(() =>{
         setTimeout(()=>{
             document.title = `You clicked ${count} times`
-            alert("The count has increased by 1");
+            console.log("Use Effect ");
         },2000)
     },[count])
 
